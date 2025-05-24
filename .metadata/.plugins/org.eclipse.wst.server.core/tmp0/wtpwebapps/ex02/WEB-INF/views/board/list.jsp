@@ -29,7 +29,7 @@
 			self.location = "/board/register";
 		});
 
-		/* //
+		//
 		var actionForm = $("#actionForm");
 
 		$('.paginate_button a').on('click', function(e){
@@ -66,7 +66,7 @@
 			searchForm.find("input[name='pageNum']").val("1");
 			e.preventDefault();
 			searchForm.submit();
-		}) */
+		}) 
 		
 	});
 </script>
@@ -101,7 +101,7 @@
 	                    
 		                    <tr>
 		                    	<td><c:out value="${board.bno}"/></td>
-		                    	<td><a href='/board/get?bno=<c:out value="${board.bno}"/>'><c:out value="${board.title}"/></a></td>
+		                    	<td><a class="move" href='<c:out value="${board.bno}"/>'><c:out value="${board.title}"/></a></td>
 		                    	<td><c:out value="${board.writer}"/></td>
 		                    	<td><fmt:formatDate pattern="yyyy-MM-dd" value="${board.regdate}"/></td>
 		                    	<td><fmt:formatDate pattern="yyyy-MM-dd" value="${board.updateDate }"/></td>

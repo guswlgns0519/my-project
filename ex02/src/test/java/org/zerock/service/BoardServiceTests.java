@@ -8,8 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.zerock.domain.BoardVO;
+import org.zerock.domain.Criteria;
 
-import lombok.Setter;
 import lombok.extern.log4j.Log4j;
 
 @RunWith(SpringJUnit4ClassRunner.class)
@@ -18,7 +18,7 @@ import lombok.extern.log4j.Log4j;
 @Log4j
 public class BoardServiceTests {
 	
-	@Setter(onMethod_ = {@Autowired})
+	@Autowired
 	private BoardService service;
 	
 //	@Test
@@ -32,35 +32,37 @@ public class BoardServiceTests {
 	public void testRegister() {
 		
 		BoardVO board = new BoardVO();
-		board.setTitle("새로 작성하는 글");
-		board.setContent("새로 작성하는 내용");
-		board.setWriter("newbie");
+		board.setTitle("service 새로 작성하는 글");
+		board.setContent("service 새로 작성하는 내용");
+		board.setWriter("service newbie");
 		
 		service.register(board);
 		
 		log.info("생성된 게시물의 번호 : " + board.getBno());
 	}
 	
-//	@Test
+	@Test
 	public void testGetList() {
-
-		service.getList().forEach(board -> log.info(board));
+//		log.info(service.getList());
+//		service.getList().forEach(board -> log.info(board));
+		
+		service.getList(new Criteria(2, 10)).forEach(board -> log.info(board));
 	}
 	
 //	@Test
 	public void testGet() {
-		log.info(service.get(1L));
+		log.info(service.get(21L));
 	}
 	
 //	@Test
 	public void testDelete() {
-		log.info("REMOVE RESULT : " + service.remove(2L));
+		log.info("REMOVE RESULT : " + service.remove(9L));
 	}
 	
-	@Test
+//	@Test
 	public void testUpadte() {
 		
-		BoardVO board = service.get(1L);
+		BoardVO board = service.get(21L);
 		
 		if( board == null ) {
 			return;	
