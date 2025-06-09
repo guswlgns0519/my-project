@@ -1,263 +1,290 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Spring]]></title><description><![CDATA[Level up your Java code and explore what Spring can do for you.]]></description><link>https://spring.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 24 May 2025 00:38:35 GMT</lastBuildDate><item><title><![CDATA[Spring for Apache Pulsar 1.1.12 and 1.2.6 are now available]]></title><link>https://spring.io/blog/2025/05/24/spring-for-apache-pulsar-1-1-12-and-1-2-6-are-now-available</link><guid isPermaLink="true">https://spring.io/blog/2025/05/24/spring-for-apache-pulsar-1-1-12-and-1-2-6-are-now-available</guid><dc:creator><![CDATA[onobc]]></dc:creator><content:encoded>&lt;p&gt;On behalf of the team and everyone who has contributed, I’m happy to announce that Spring for Apache Pulsar &lt;code&gt;1.1.12&lt;/code&gt; and &lt;code&gt;1.2.6&lt;/code&gt; have been released and are now available from Maven Central.&lt;/p&gt;
-&lt;p&gt;The releases will be included in the upcoming Spring Boot &lt;a href=&quot;https://github.com/spring-projects/spring-boot/milestones/3.3.12&quot;&gt;3.3.12&lt;/a&gt; and &lt;a href=&quot;https://github.com/spring-projects/spring-boot/milestones/3.4.6&quot;&gt;3.4.6&lt;/a&gt; releases, respectively.&lt;/p&gt;
-&lt;p&gt;Please see the release notes (&lt;a href=&quot;https://github.com/spring-projects/spring-pulsar/releases/tag/v1.1.12&quot;&gt;1.1.12&lt;/a&gt; and &lt;a href=&quot;https://github.com/spring-projects/spring-pulsar/releases/tag/v1.2.6&quot;&gt;1.2.6&lt;/a&gt;) for more details.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Repository Vector Search Methods]]></title><link>https://spring.io/blog/2025/05/23/vector-search-methods</link><guid isPermaLink="true">https://spring.io/blog/2025/05/23/vector-search-methods</guid><dc:creator><![CDATA[mp911de]]></dc:creator><pubDate>Fri, 23 May 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The emergence of Large Language Models (LLM) has propelled Generative AI and surfaced one of its key components to a broad audience: &lt;a href=&quot;https://en.wikipedia.org/wiki/Word_embedding&quot;&gt;Embeddings&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Embeddings are a &lt;a href=&quot;https://en.wikipedia.org/wiki/Vector_space&quot;&gt;vector representation&lt;/a&gt; of data in a high-dimensional space capturing their semantic meaning. Vector representations allow for more efficient and effective search (Vector Search) of similar items. Vector search is typically used to build &lt;a href=&quot;https://en.wikipedia.org/wiki/Retrieval-augmented_generation&quot;&gt;Retrieval-augmented generation (RAG)&lt;/a&gt; systems and so there is demand for vector databases.&lt;/p&gt;
-&lt;p&gt;While new vector databases are on the rise, existing database engines are gradually incorporating vector search capabilities leading to two main types of databases:&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Spring]]></title><description><![CDATA[Level up your Java code and explore what Spring can do for you.]]></description><link>https://spring.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 09 Jun 2025 00:40:06 GMT</lastBuildDate><item><title><![CDATA[A Bootiful Podcast: IntelliJ IDEA lead Aleksey Stukalov]]></title><link>https://spring.io/blog/2025/06/05/a-bootiful-podcast-aleksey-stukalov</link><guid isPermaLink="true">https://spring.io/blog/2025/06/05/a-bootiful-podcast-aleksey-stukalov</guid><dc:creator><![CDATA[joshlong]]></dc:creator><pubDate>Thu, 05 Jun 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi, Spring fans! In this installment I talk to IntelliJ IDEA lead Aleksey Stukalov&lt;/p&gt;
+&lt;iframe title=&quot;IntelliJ IDEA project lead Aleksey Stukalov&quot; allowtransparency=&quot;true&quot; height=&quot;300&quot; width=&quot;100%&quot; style=&quot;border: none; min-width: min(100%, 430px);height:300px;&quot; scrolling=&quot;no&quot; data-name=&quot;pb-iframe-player&quot; src=&quot;https://www.podbean.com/player-v2/?from=embed&amp;i=red3m-18cba87-pb&amp;square=1&amp;share=1&amp;download=1&amp;fonts=Arial&amp;skin=1&amp;font-color=&amp;rtl=0&amp;logo_link=&amp;btn-skin=7&amp;size=300&quot; loading=&quot;lazy&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content:encoded></item><item><title><![CDATA[This Week in Spring - June 3rd, 2025]]></title><link>https://spring.io/blog/2025/06/03/this-week-in-spring-june-3rd-2025</link><guid isPermaLink="true">https://spring.io/blog/2025/06/03/this-week-in-spring-june-3rd-2025</guid><dc:creator><![CDATA[joshlong]]></dc:creator><pubDate>Tue, 03 Jun 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi, Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! I just finished recording my session with IntelliJ IDEA project lead Aleksey Stukalov about all the amazing features coming to IntelliJ IDEA to better support Java, Kotlin, and Spring developers.&lt;/p&gt;
+&lt;p&gt;It went off without a hitch (even though we&apos;re using a few early features), and I want to thank the Jetbrains team for the chance to participate.&lt;/p&gt;
+&lt;p&gt;Tomorrow, I speak at the amazing JSpring conference (sibling conference to the amazing JFall conference), too.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Dedicated Vector Databases&lt;/li&gt;
-&lt;li&gt;Database Engines with Vector Search Capabilities&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Dedicated Vector Databases originate in the need for searching for similar items in high-dimensional spaces. They are optimized for this purpose and often use specialized indexing techniques to improve search performance. Examples include &lt;a href=&quot;https://www.pinecone.io/&quot;&gt;Pinecone&lt;/a&gt;, &lt;a href=&quot;https://weaviate.io/&quot;&gt;Weaviate&lt;/a&gt;, &lt;a href=&quot;https://milvus.io/&quot;&gt;Milvus&lt;/a&gt;, and &lt;a href=&quot;https://qdrant.tech/&quot;&gt;Qdrant&lt;/a&gt;. All of these are projects emerged around the early 2020s.&lt;/p&gt;
-&lt;p&gt;A Vector Search typically requires a vector, which is an array of single-precision &lt;code&gt;float&lt;/code&gt; numbers, a namespace (something like a table or collection) and a Top K (the number of results to return) argument. Vector search then run an Approximate Nearest Neighbor (ANN) or k-Nearest Neighbors (kNN) search.
-Those databases allow additional filtering similarity and metadata fields, however, the core of the search gravitates around vector representations.&lt;/p&gt;
-&lt;p&gt;Existing Database Engines such as Postgres (pgvector), Oracle, and MongoDB have gradually added vector search capabilities to their engines.
-They are not dedicated vector databases but rather general-purpose databases with vector search capabilities. Their strength lies in their ability to handle a wide range of data types and queries, especially when it comes to combining vector search with traditional queries. They also have a long history of supporting administrative tasks with a well-understood operating model for backup and recovery, scaling, and maintenance.
-Another aspect to consider is that these databases are already being used in production, containing large amounts of existing data.&lt;/p&gt;
-&lt;h2 id=&quot;elephant-in-the-room&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#elephant-in-the-room&quot; aria-label=&quot;elephant in the room permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Elephant in the Room&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/vectordbs.html&quot;&gt;Spring AI&lt;/a&gt; has a wide range of integrations with vector stores.&lt;/p&gt;
-&lt;p&gt;The obvious question is: &quot;Why has Spring AI support for Vector Search and Spring Data does not?&quot;. And why does that even matter?&lt;/p&gt;
-&lt;p&gt;The goal of Spring AI is to simplify the process of building AI-powered applications by providing a consistent programming model and abstractions. It focuses on integrating AI capabilities into Spring applications and provides a unified API for working with various AI models and services.&lt;/p&gt;
-&lt;p&gt;AI is a hot topic: Several database vendors have contributed their integration for vector search to Spring AI to enable use-cases such as &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/concepts.html#concept-rag&quot;&gt;Retrieval Augmented Generation&lt;/a&gt;. This is a great example of how Open Source can drive innovation and collaboration in the database space.&lt;/p&gt;
-&lt;p&gt;When we consider what&apos;s after the peak of AI&apos;s hype cycle, we are faced with day-2 operations. Data has a lifecycle, new LLM models come and go, some are better for certain tasks or languages than others. While Spring AI&apos;s &lt;code&gt;VectorStore&lt;/code&gt; has the means to reflect of data lifecycle to some extent, it is by no means its primary focus.&lt;/p&gt;
-&lt;p&gt;And here comes Spring Data into play. Spring Data is all about data models, access, and data lifecycle. It provides a consistent programming model for accessing different data stores, including relational databases, NoSQL databases, and more. Spring Data&apos;s focus is on simplifying data access and management, making it easier to work with various data sources in a consistent way.&lt;/p&gt;
-&lt;p&gt;Wouldn&apos;t it then make sense to have Vector Search capabilities in Spring Data?&lt;/p&gt;
-&lt;p&gt;Yes, it would.&lt;/p&gt;
-&lt;h2 id=&quot;vector-search-in-spring-data&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#vector-search-in-spring-data&quot; aria-label=&quot;vector search in spring data permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Vector Search in Spring Data&lt;/h2&gt;
-&lt;p&gt;With Spring Data 3.5, we&apos;ve introduced a &lt;code&gt;Vector&lt;/code&gt; type to simplify usage of vector data in entities.&lt;/p&gt;
-&lt;p&gt;Vector data types are not common in typical domain models.
-The closest resemblance of vector data has been geospatial data types such as &lt;code&gt;Point&lt;/code&gt;, &lt;code&gt;Polygon&lt;/code&gt;, etc. but even those are not common.
-Domain models rather consist of primitive types and value types reflecting the domain they are used in.&lt;/p&gt;
-&lt;p&gt;Vector properties use either vendor-specific types (such as Cassandra&apos;s &lt;code&gt;CqlVector&lt;/code&gt;) or use some sort of array, like &lt;code&gt;float[]&lt;/code&gt;. In the latter case, using arrays introduces quite some accidental complexity: Java arrays are pointers. Their underlying actual array data is mutable. Carrying arrays around isn&apos;t too common either.&lt;/p&gt;
-&lt;p&gt;Your domain model can leverage &lt;code&gt;Vector&lt;/code&gt; property type reducing the risk of accidentally mutating the underlying data and giving the otherwise &lt;code&gt;float[]&lt;/code&gt; a semantic context. Persisting and retrieving &lt;code&gt;Vector&lt;/code&gt; properties is handled by Spring Data for modules where Spring Data handles object mapping. For JPA, you will require additional converters.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Vector vector = Vector.of(0.0001f, 1.12345f, 2.23456f, 3.34567f, 4.45678f);
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;code&gt;Vector.of(…)&lt;/code&gt; creates an immutable &lt;code&gt;Vector&lt;/code&gt; instance and a copy of the given input array. While this is useful for most scenarios, performance-sensitive arrangements that want to reduce GC pressure can retain the reference to the original array:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Vector vector = Vector.unsafe(new float[]{0.0001f, 1.12345f, 2.23456f, 3.34567f, 4.45678f});
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;You can obtain a safe (copied) variant of the &lt;code&gt;float[]&lt;/code&gt; array by calling &lt;code&gt;toFloatArray()&lt;/code&gt; respective &lt;code&gt;toDoubleArray()&lt;/code&gt; if you want to use &lt;code&gt;double[]&lt;/code&gt;. Alternatively, you can access the &lt;code&gt;Vector&lt;/code&gt;&apos;s source through &lt;code&gt;getSource()&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Depending on your data store, you might need to equip your data model with additional annotations to indicate e.g. the number of dimensions or its precision.&lt;/p&gt;
-&lt;p&gt;When running a Vector search operation, each database uses a very different API. Let&apos;s take a look at MongoDB and Apache Cassandra.&lt;/p&gt;
-&lt;p&gt;In MongoDB, Vector Search is used through its Aggregation Framework requiring an aggregation stage:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;class Comment {
-
-  String id;
-  String language;
-  String comment;
-  Vector embedding;
-
-  // getters, setters, …
-}
-
-VectorSearchOperation vectorSearch = VectorSearchOperation.search(&quot;euclidean-index&quot;)
-  .path(&quot;embedding&quot;)
-  .vector(0.0001f, 1.12345f, 2.23456f, 3.34567f, 4.45678f) // float[], Vector, or Mongo&apos;s BinaryVector
-  .limit(10) // Top-K
-  .numCandidates(200)
-  .filter(where(&quot;language&quot;).is(&quot;DE&quot;))
-  .searchType(SearchType.ANN)
-  .withSearchScore();
-
-AggregationResults&amp;#x3C;Document&gt; results = template.aggregate(newAggregation(vectorSearch),
-  Comment.class, Document.class);
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;code&gt;VectorSearchOperation&lt;/code&gt; offers a fluent API guiding you through each step of the operation reflecting the underlying MongoDB API in a convenient way.&lt;/p&gt;
-&lt;p&gt;Let&apos;s have a look at Apache Cassandra. Cassandra uses CQL (Cassandra Query Language) to run queries against the database. Cassandra Vector Search uses the same approach. With Cassandra, Spring Data users have the choice to either use Spring Data Cassandra&apos;s &lt;code&gt;Query&lt;/code&gt; API or the native CQL API to run a Vector Search:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;@Table(&quot;comments&quot;)
-class CommentVectorSearchResult {
-
-  @Id String id;
-  double score;
-  String language;
-  String comment;
-  
-  // getters, setters, …
-}
-
-CassandraTemplate template = …
-Query query = Query.select(Columns.from(&quot;id&quot;, &quot;language&quot;, &quot;comment&quot;)
-                                  .select(&quot;embedding&quot;, it -&gt; it.similarity(Vector.of(1.1f, 2.2f)).cosine().as(&quot;score&quot;)))
-  .sort(VectorSort.ann(&quot;embedding&quot;, Vector.of(1.1f, 2.2f)))
-  .limit(10);
-
-List&amp;#x3C;VectorSearchResult&gt; select = template.select(query, VectorSearchResult.class);
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The CQL variant would look like this:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;CassandraTemplate template = …
-
-List&amp;#x3C;Map&amp;#x3C;String, Object&gt;&gt; result = template.getCqlOperations().queryForList(&quot;&quot;&quot;
-    SELECT id, language, comment, similarity_cosine(embedding, ?0) AS score
-    FROM my_table 
-    ORDER BY embedding ANN OF ?0 
-    LIMIT ?1
-    &quot;&quot;&quot;, CqlVector.newInstance(1.1f, 2.2f), 10);
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;All in all these are small and simple examples of how to use Vector Search in Spring Data.&lt;/p&gt;
-&lt;p&gt;Coming from a domain model perspective, representing search results is different from representing the domain model itself.
-Clearly, one could favor Java Records over classes but that isn&apos;t what the differences are about. Have you noticed the additional &lt;code&gt;CommentVectorSearchResult&lt;/code&gt; class or &lt;code&gt;List&amp;#x3C;Document&gt;&lt;/code&gt; (MongoDB&apos;s native document type)? Cassandra has no detached raw type that you could use to consume result so we need &lt;code&gt;CommentVectorSearchResult&lt;/code&gt; as dedicated type to map this specific Cassandra search result. We not only want to access domain data, but also the score. MongoDB&apos;s Java driver ships with a &lt;code&gt;Document&lt;/code&gt; type that behaves is essentially a &lt;code&gt;Map&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;That&apos;s not how we envisioned a modern programming model.&lt;/p&gt;
-&lt;p&gt;When searching for items, the result is not a list of domain objects but rather a list of search results. How do we even represent those?
-And can&apos;t we have a uniform programming model that combines the simplicity of expressing what I want with the power of the underlying database?&lt;/p&gt;
-&lt;h2 id=&quot;vector-search-methods&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#vector-search-methods&quot; aria-label=&quot;vector search methods permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Vector Search Methods&lt;/h2&gt;
-&lt;p&gt;If it is a search result, then it is a &lt;code&gt;SearchResult&amp;#x3C;T&gt;&lt;/code&gt;. What if repository methods could return &lt;code&gt;SearchResults&amp;#x3C;T&gt;&lt;/code&gt;? Searching is a slightly different concept than querying (finding) entities. Beyond that, search methods would work similarly to existing query methods.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;interface CommentRepository extends Repository&amp;#x3C;Comment, String&gt; {
-
-  @VectorSearch(indexName = &quot;euclidean-index&quot;)
-  SearchResults&amp;#x3C;Comment&gt; searchTop10ByLanguageAndEmbeddingNear(String language, Vector vector,
-      Similarity similarityThreshold);
-
-  @VectorSearch(indexName = &quot;euclidean-index&quot;)
-  SearchResults&amp;#x3C;Comment&gt; searchByLanguageAndEmbeddingWithin(String language, Vector vector,
-      Range&amp;#x3C;Similarity&gt; range, Limit topK);
-}
-
-SearchResults&amp;#x3C;Comment&gt; results = repository.searchTop10ByLanguageAndEmbeddingNear(&quot;DE&quot;, Vector.of(0.0001f, 1.12345f, 2.23456f, 3.34567f, 4.45678f), Similarity.of(0.9));
-
-for (SearchResult&amp;#x3C;Comment&gt; result : results) {
-  Score score= result.getScore();
-  Comment comment = result.getContent();
-  // …
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The example above shows a search method that runs a Vector search. Searching in MongoDB requires an index hint that is specific to MongoDB. Beyond that, query derivation creates the pre-filter to filter by &lt;code&gt;language&lt;/code&gt;.
-By leveraging &lt;code&gt;Near&lt;/code&gt; and &lt;code&gt;Within&lt;/code&gt; keywords, Spring Data MongoDB is able to associate the given &lt;code&gt;Vector&lt;/code&gt; and &lt;code&gt;Similarity&lt;/code&gt; predicate to customize the actual Vector Search operation. The result is returned as &lt;code&gt;SearchResults&lt;/code&gt; providing access to the found entity and its score respective similarity value.&lt;/p&gt;
-&lt;p&gt;Using Vector Search with Postgres or Oracle is even simpler. The following example shows a Vector Search method in a Spring Data JPA repository through Hibernate&apos;s &lt;a href=&quot;https://docs.jboss.org/hibernate/stable/orm/userguide/html_single/Hibernate_User_Guide.html#vector-module&quot;&gt;&lt;code&gt;hibernate-vector&lt;/code&gt; module&lt;/a&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;interface CommentRepository extends Repository&amp;#x3C;Comment, String&gt; {
-
-  SearchResults&amp;#x3C;Comment&gt; searchTop10ByLanguageAndEmbeddingNear(String language, Vector vector,
-      Score scoreThreshold);
-
-  SearchResults&amp;#x3C;Comment&gt; searchByLanguageAndEmbeddingWithin(String language, Vector vector,
-      Range&amp;#x3C;Similarity&gt; range, Limit topK);
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;code&gt;Near&lt;/code&gt; and &lt;code&gt;Within&lt;/code&gt; Search methods require a &lt;code&gt;Vector&lt;/code&gt; and a &lt;code&gt;Score&lt;/code&gt;, &lt;code&gt;Similarity&lt;/code&gt; (subtype of Score), or &lt;code&gt;Range&amp;#x3C;Score&gt;&lt;/code&gt; parameter to determine how similarity/distance is calculated. Traditionally, query methods are intended to express predicates of a query while a typical Vector search is more about the Top-K limiting. That is something we have to consider in the future.&lt;/p&gt;
-&lt;p&gt;Search methods can also leverage annotations in the same way that query methods do. The following example shows a search method in a Spring Data JPA:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;interface CommentRepository extends Repository&amp;#x3C;Comment, Integer&gt; {
-
-  @Query(&quot;&quot;&quot;
-      SELECT c, cosine_distance(c.embedding, :embedding) as distance FROM Comment c
-      WHERE c.language = :language
-          AND cosine_distance(c.embedding, :embedding) &amp;#x3C;= :distance
-      ORDER BY cosine_distance(c.embedding, :embedding) asc
-      &quot;&quot;&quot;)
-    SearchResults&amp;#x3C;Comment&gt; searchAnnotatedByLanguage(String language, Vector embedding, Score distance);
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;While it&apos;s not obvious, pgvector and Oracle calculate distances to compute a score. Spring Data allows consuming the native score value either directly or, when using &lt;code&gt;Similarity.of(…)&lt;/code&gt; as argument with the appropriate &lt;code&gt;ScoringFunction&lt;/code&gt;, Spring Data normalizes the native score into a similarity range between 0 and 1.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;// Using a native score
-SearchResults&amp;#x3C;Comment&gt; results = repository.searchAnnotatedByLanguage(…, Score.of(0.1, ScoringFunction.cosine()));
-
-// SearchResult.score will be an instance of Similarity
-SearchResults&amp;#x3C;Comment&gt; results = repository.searchAnnotatedByLanguage(…, Similarity.of(0.9, ScoringFunction.cosine()));
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;A final note on &lt;code&gt;Vector&lt;/code&gt; with JPA. When using JPA, you can use &lt;code&gt;Vector&lt;/code&gt; in your domain model to store the vector assuming you have configured an &lt;code&gt;AttributeConverter&lt;/code&gt; to convert the &lt;code&gt;Vector&lt;/code&gt; into a database type.
-However, when using Hibernate&apos;s distance methods (such as &lt;code&gt;cosine_distance&lt;/code&gt;), Hibernate doesn&apos;t consider any Attribute Converters, hence your model must resort to using &lt;code&gt;float[]&lt;/code&gt; or &lt;code&gt;double[]&lt;/code&gt; as embedding type:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;@Table
-class Comment {
-
-  @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
-  private Integer id;
-  
-  private String language;
-  private String comment;
-  
-  @JdbcTypeCode(SqlTypes.VECTOR)
-  @Array(length = 5)
-  private float[] embedding;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&quot;conclusion&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#conclusion&quot; aria-label=&quot;conclusion permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;We&apos;ve explored the world of Vector Search and how it fits into the Spring ecosystem along with Vector Search origins in Spring AI. Support for the &lt;code&gt;Vector&lt;/code&gt; type ships with Spring Data 3.5 (2025.0) in the May 2025 release.&lt;/p&gt;
-&lt;p&gt;Vector Search Methods are a preview feature of the Spring Data 4.0 (2025.1) release train with first implementations for JPA through Hibernate Vector, MongoDB and Apache Cassandra. We&apos;re excited to hear what you think about Vector Search methods and how we can improve them further.&lt;/p&gt;
-&lt;p&gt;You can find the documentation about Vector Search in the reference documentation, in &lt;a href=&quot;https://docs.spring.io/spring-data/jpa/reference/4.0/repositories/vector-search.html&quot;&gt;JPA&lt;/a&gt;, &lt;a href=&quot;https://docs.spring.io/spring-data/mongodb/reference/5.0/mongodb/repositories/vector-search.html&quot;&gt;MongoDB&lt;/a&gt;, and &lt;a href=&quot;https://docs.spring.io/spring-data/cassandra/reference/5.0/cassandra/repositories/vector-search.html&quot;&gt;Cassandra&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[A Bootiful Podcast: Spring IO founder Sergi Almar on Spring IO 2025]]></title><link>https://spring.io/blog/2025/05/22/a-bootiful-podcast-sergi-almar</link><guid isPermaLink="true">https://spring.io/blog/2025/05/22/a-bootiful-podcast-sergi-almar</guid><dc:creator><![CDATA[joshlong]]></dc:creator><pubDate>Thu, 22 May 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi, Spring and Spring I/O fans! In this installment we have the privilege of chatting with friend of the community and legend Sergi Almar about the amazing Spring IO 2025, where this episode was published, and a lot more.&lt;/p&gt;
-&lt;iframe title=&quot;Spring IO founder Sergi Almar on Spring IO 2025&quot; allowtransparency=&quot;true&quot; height=&quot;300&quot; width=&quot;100%&quot; style=&quot;border: none; min-width: min(100%, 430px);height:300px;&quot; scrolling=&quot;no&quot; data-name=&quot;pb-iframe-player&quot; src=&quot;https://www.podbean.com/player-v2/?from=embed&amp;i=t9ya5-18b72ad-pb&amp;square=1&amp;share=1&amp;download=1&amp;fonts=Arial&amp;skin=1&amp;font-color=&amp;rtl=0&amp;logo_link=&amp;btn-skin=7&amp;size=300&quot; loading=&quot;lazy&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content:encoded></item><item><title><![CDATA[Spring Data Ahead of Time Repositories]]></title><link>https://spring.io/blog/2025/05/22/spring-data-ahead-of-time-repositories</link><guid isPermaLink="true">https://spring.io/blog/2025/05/22/spring-data-ahead-of-time-repositories</guid><dc:creator><![CDATA[christophstrobl]]></dc:creator><pubDate>Thu, 22 May 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In the past couple of years we have seen heavy investment throughout the Java ecosystem to reduce application startup times. The main focus gravitates around Ahead-of-Time optimizations.
-May it be condensing code into a GraalVM native executable, capturing already optimized bytecode with Coordinated Restore at Checkpoint (CRaC), Class Data Sharing (CDS) or its more recent successor AOT cache (part of project &lt;a href=&quot;https://openjdk.org/projects/leyden/&quot;&gt;Leyden&lt;/a&gt;).
-While barriers to entry vary between the different approaches, all of them move performance optimizations away from runtime into an earlier phase, such as build time or a separate packaging step.&lt;/p&gt;
-&lt;p&gt;The Spring portfolio has you covered: It supports you in whichever direction you want to take it:&lt;/p&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2025/06/02/spring-cloud-2022-0-11-aka-kilburn-has-been-released&quot;&gt;Spring Cloud 2022.0.11 (aka Kulburn) has been released&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2025/05/29/spring-cloud-2025-0-0-is-abvailable&quot;&gt;Spring Cloud 2025.0.0 (aka Northfields) has been released&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2025/05/29/spring-cloud-gateway-2025-05-29-releases&quot;&gt;Spring Cloud Gateway 3.1.10, 4.0.12, 4.1.8, 4.2.3, 4.3.0 Released, including fixes for CVE-2025-41235&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;in last week&apos;s installment of &lt;em&gt;A Bootiful Podcast&lt;/em&gt;, I talked with &lt;a href=&quot;https://spring.io/blog/2025/05/29/a-bootiful-podcast-victor-rentea&quot;&gt;the amazing Victor Rentea&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2025/05/28/spring-modulith-1-4-1-3-6-and-1-2-13-released&quot;&gt;Spring Modulith 1.4 GA, 1.3.6, and 1.2.13 released&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;never one to rest on his laurels, Wim Deblauwe just released Vite Spring Boot 0.9.0, which improves &lt;a href=&quot;https://github.com/wimdeblauwe/vite-spring-boot/releases/tag/0.9.0&quot;&gt;support for Java Template Engine and updates to use Spring Boot 3.3.1.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Speaking of Jetbrains, I am super pleased with the &lt;a href=&quot;https://x.com/belyaev_andrey/status/1927072372101656643?s=12&quot;&gt;forthcoming support for Spring Data AOT repositories in the IDE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;I love the forthcoming support for &lt;a href=&quot;https://www.linkedin.com/posts/joshlong_intellijideaconf-activity-7335632625954340864-CfJI?utm_source=share&amp;#x26;utm_medium=member_desktop&amp;#x26;rcm=ACoAAACXdIABb8VbfXttpb7WA9oliQsXOS5rEgw&quot;&gt;reverse engineering JPA entities within IntelliJ IDEA&lt;/a&gt; which, while not Spring related &lt;em&gt;per se&lt;/em&gt;, will surely benefit a bunch of folks.&lt;/li&gt;
+&lt;li&gt;Another interesting thing upon which the Jetbrains team is working - but has not yet released - &lt;a href=&quot;https://www.linkedin.com/posts/joshlong_intellijideaconf-activity-7335633019946356736-FE_R?utm_source=share&amp;#x26;utm_medium=member_desktop&amp;#x26;rcm=ACoAAACXdIABb8VbfXttpb7WA9oliQsXOS5rEgw&quot;&gt;is this epic and forthcoming Spring Modulith support&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Spring Cloud 2022.0.11 (aka Kilburn) Has Been Released]]></title><link>https://spring.io/blog/2025/06/02/spring-cloud-2022-0-11-aka-kilburn-has-been-released</link><guid isPermaLink="true">https://spring.io/blog/2025/06/02/spring-cloud-2022-0-11-aka-kilburn-has-been-released</guid><dc:creator><![CDATA[ryanjbaxter]]></dc:creator><pubDate>Mon, 02 Jun 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the Spring Cloud team, I am pleased to announce that the &lt;a href=&quot;https://enterprise.spring.io/projects/spring-cloud&quot;&gt;Spring Cloud 2022.0.11&lt;/a&gt; Release Train is available for &lt;a href=&quot;https://www.vmware.com/products/app-platform/tanzu-spring&quot;&gt;support customers&lt;/a&gt;. The release can be found in &lt;a href=&quot;https://packages.broadcom.com&quot;&gt;https://packages.broadcom.com&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;notable-changes-in-the-202201-release-train&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#notable-changes-in-the-202201-release-train&quot; aria-label=&quot;notable changes in the 202201 release train permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Notable Changes in the 2022.0.1 Release Train&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Providing runtime hints for GraalVM native images&lt;/li&gt;
-&lt;li&gt;Generating AOT code for bean definitions and wiring&lt;/li&gt;
-&lt;li&gt;Application Context snapshotting using Project Leyden premain training runs&lt;/li&gt;
+&lt;li&gt;This release is compatible with Spring Boot 3.0.20 and 3.1.17.&lt;/li&gt;
+&lt;li&gt;Spring Cloud Commons 4.0.7 has dependency upgrades.&lt;/li&gt;
+&lt;li&gt;Spring Cloud Task 3.0.6 has dependency upgrades.&lt;/li&gt;
+&lt;li&gt;Spring Cloud Config 4.0.11 dependency upgrades and contains a fix for &lt;a href=&quot;https://spring.io/security/cve-2025-22232&quot;&gt;CVE-2025-22232&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Spring Cloud Netflix 4.0.8 has dependency upgrades.&lt;/li&gt;
+&lt;li&gt;Spring Cloud OpenFeign 4.0.9 has dependency upgrades.&lt;/li&gt;
+&lt;li&gt;Spring Cloud Gateway 4.0.12 has dependency upgrades and contains a fix for &lt;a href=&quot;https://spring.io/security/cve-2025-41235&quot;&gt;CVE-2025-41235&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Spring Cloud Contract 4.0.11 has dependency upgrades.&lt;/li&gt;
+&lt;li&gt;Spring Cloud Kubernetes 3.0.7 has dependency upgrades.&lt;/li&gt;
+&lt;li&gt;Spring Cloud Vault 4.0.6 has dependency upgrades.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Spring Cloud 2025.0.0 (aka Northfields) has been released]]></title><link>https://spring.io/blog/2025/05/29/spring-cloud-2025-0-0-is-abvailable</link><guid isPermaLink="true">https://spring.io/blog/2025/05/29/spring-cloud-2025-0-0-is-abvailable</guid><dc:creator><![CDATA[spencergibb]]></dc:creator><pubDate>Thu, 29 May 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the community, I am pleased to announce the General Availability (GA) of the &lt;a href=&quot;https://cloud.spring.io&quot;&gt;Spring Cloud 2025.0.0&lt;/a&gt; Release Train is available today. The release can be found in &lt;a href=&quot;https://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-dependencies/2025.0.0/&quot;&gt;Maven Central&lt;/a&gt;. You can check out the 2025.0.0 &lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-release/wiki/Spring-Cloud-2025.0-Release-Notes&quot;&gt;release notes for more information&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;notable-changes-in-the-202500-release-train&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#notable-changes-in-the-202500-release-train&quot; aria-label=&quot;notable changes in the 202500 release train permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Notable Changes in the 2025.0.0 Release Train&lt;/h2&gt;
+&lt;p&gt;This release is compatible with Spring Boot 3.5.0. See all issues and pull requests that are part of the release &lt;a href=&quot;https://github.com/orgs/spring-cloud/projects/175&quot;&gt;here&lt;/a&gt;. Below are highlights from all the milestones leading up to the GA release.&lt;/p&gt;
+&lt;h3 id=&quot;spring-cloud-gateway&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#spring-cloud-gateway&quot; aria-label=&quot;spring cloud gateway permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Spring Cloud Gateway&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Adds support for spring-cloud-function and spring-cloud-stream handlers &lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-gateway/pull/3646&quot;&gt;#3646&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Adds support for a Bucket4jRateLimiter in server webflux &lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-gateway/pull/2955&quot;&gt;#2955&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Deprecate &lt;code&gt;WebClientRouting&lt;/code&gt; infrastructure. This will be removed in 5.0 later this year. &lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-gateway/issues/3680&quot;&gt;#3680&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New Module and Starter names have been created, and the old names are deprecated. The new and deprecated artifacts are listed in the table below &lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-gateway/pull/3645&quot;&gt;#3645&lt;/a&gt;. These new names clarify the two styles of gateway (server or proxy exchange) as well as the two web stacks from Spring Framework (Web MCV and WebFlux). Use of the deprecated artifacts will add a warning message in the logs.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;With Spring Data 4.0 (or the &lt;code&gt;2025.1&lt;/code&gt; release train if you prefer calver) we are taking your repositories to AOT. We are shifting all the Repository preparations that are done at application startup to build time.&lt;/p&gt;
-&lt;h1 id=&quot;how-does-it-work-and-what-can-you-expect&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#how-does-it-work-and-what-can-you-expect&quot; aria-label=&quot;how does it work and what can you expect permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;How does it work and what can you expect?&lt;/h1&gt;
-&lt;p&gt;In short, when setting the &lt;code&gt;spring.aot.repositories.enabled=true&lt;/code&gt; configuration property, our AOT processing turns your repository query methods into actual source code by relying on the store-specific nature of the repository.
-Generated query methods contain the exact same code you would write if you would not use Spring Data to run your query.
-The generated source is then compiled together with your application and backing the repository interface.&lt;/p&gt;
-&lt;p&gt;Imagine a repository of pet owners as outlined below.&lt;/p&gt;
-&lt;p&gt;The repository itself does not inherit any functionality from one of the base repositories like &lt;code&gt;CrudRepository&lt;/code&gt; to keep the exposed functionality at a minimum.
-Still the &lt;code&gt;save&lt;/code&gt; method matches the signature of one of the predefined methods, while the two listed query methods are using a derived as well as explicitly annotated approach.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;interface OwnerRepository extends Repository&amp;#x3C;Owner, Integer&gt; {
-
-    Owner save(Owner owner);
-
-    List&amp;#x3C;OwnerSummary&gt; findAllByLastName(String lastName);
-
-    @Transactional(readOnly = true)
-    @Query(&quot;SELECT DISTINCT owner FROM Owner owner left join owner.pets WHERE owner.lastName LIKE :lastName%&quot;)
-    Page&amp;#x3C;Owner&gt; findByLastName(@Param(&quot;lastName&quot;) String lastName, Pageable pageable);
-
-    // ...
-}
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Deprecated Artifact&lt;/th&gt;
+&lt;th&gt;New Artifact&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;spring-cloud-gateway-server&lt;/td&gt;
+&lt;td&gt;spring-cloud-gateway-server-webflux&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;spring-cloud-gateway-server-mvc&lt;/td&gt;
+&lt;td&gt;spring-cloud-gateway-server-webmvc&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;spring-cloud-starter-gateway-server&lt;/td&gt;
+&lt;td&gt;spring-cloud-starter-gateway-server-webflux&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;spring-cloud-starter-gateway-server-mvc&lt;/td&gt;
+&lt;td&gt;spring-cloud-starter-gateway-server-webmvc&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;spring-cloud-gateway-mvc&lt;/td&gt;
+&lt;td&gt;spring-cloud-gateway-proxyexchange-webmvc&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;spring-cloud-gateway-webflux&lt;/td&gt;
+&lt;td&gt;spring-cloud-gateway-proxyexchange-webflux&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;Migration to new property prefixes to match the new module names: &lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-gateway/issues/3361&quot;&gt;#3361&lt;/a&gt;, &lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-gateway/issues/3362&quot;&gt;#3362&lt;/a&gt;, &lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-gateway/issues/3363&quot;&gt;#3363&lt;/a&gt;, &lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-gateway/issues/3647&quot;&gt;#3647&lt;/a&gt;. Use &lt;code&gt;spring-boot-properties-migrator&lt;/code&gt; to support the deprecated prefixes. The table below lists the module or starter, its old prefix, and the new replacement prefix.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Module/Starter&lt;/th&gt;
+&lt;th&gt;Deprecated prefix&lt;/th&gt;
+&lt;th&gt;New prefix&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;spring-cloud-starter-gateway-server-webflux&lt;/td&gt;
+&lt;td&gt;spring.cloud.gateway.*&lt;/td&gt;
+&lt;td&gt;spring.cloud.gateway.server.webflux.*&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;spring-cloud-starter-gateway-server-webmvc&lt;/td&gt;
+&lt;td&gt;spring.cloud.gateway.mvc.*&lt;/td&gt;
+&lt;td&gt;spring.cloud.gateway.server.webmvc.*&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;spring-cloud-gateway-proxyexchange-webflux&lt;/td&gt;
+&lt;td&gt;spring.cloud.gateway.proxy.*&lt;/td&gt;
+&lt;td&gt;spring.cloud.gateway.proxy-exchange.webflux.*&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;spring-cloud-gateway-proxyexchange-webmvc&lt;/td&gt;
+&lt;td&gt;spring.cloud.gateway.proxy.*&lt;/td&gt;
+&lt;td&gt;spring.cloud.gateway.proxy-exchange.webmvc.*&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;code&gt;X-Forwarded-*&lt;/code&gt; and &lt;code&gt;Forwarded&lt;/code&gt; header functionality will be disabled by default with the fix versions. If you require &lt;code&gt;X-Forwarded-*&lt;/code&gt; or &lt;code&gt;Forwarded&lt;/code&gt; header functionality, set &lt;code&gt;spring.cloud.gateway.server.webflux.trusted-proxies&lt;/code&gt; to a Java Regular Expression that specifies the proxies whose headers you trust. If you are using Spring Cloud Gateway Server MVC (only available from 4.1.x onward) set &lt;code&gt;spring.cloud.gateway.mvc.trusted-proxies&lt;/code&gt;. For example for Spring Cloud Gateway Server:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&quot;language-properties&quot;&gt;spring.cloud.gateway.server.webflux.trusted-proxies=10\.0\.0\..*
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;During the AOT phase the infrastructure will only consider relevant parts for the code generation.
-Take the before mentioned &lt;code&gt;save&lt;/code&gt; method for example: Since we are using JPA here, &lt;code&gt;SimpleJpaRepository&lt;/code&gt; already holds a default implementation for the &lt;code&gt;save&lt;/code&gt; method, allowing the code generation to skip the method.
-The same is true for any of your custom implementations.
-The remaining two methods for &lt;code&gt;OwnerRepository&lt;/code&gt; however are of course subject to AOT optimizations and end up in &lt;code&gt;OwnerRepositoryImpl__Aot&lt;/code&gt; located in the same package as the source &lt;code&gt;OwnerRepository&lt;/code&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;@Generated
-public class OwnerRepositoryImpl__Aot extends AotRepositoryFragmentSupport {
-
-  private final EntityManager entityManager;
-
-  public OwnerRepositoryImpl__Aot(EntityManager entityManager,
-    RepositoryFactoryBeanSupport.FragmentCreationContext context) {
-    // ...
-  }
-
-  /**
-   * AOT generated implementation of {@link OwnerRepository#findAllByLastName(String)}.
-   */
-  public List&amp;#x3C;OwnerSummary&gt; findAllByLastName(String lastName) {
-    String queryString = &quot;SELECT o.firstName AS firstName, o.lastName AS lastName, o.city AS city FROM org.springframework.samples.petclinic.owner.Owner o WHERE o.lastName = :lastName&quot;;
-    Query query = this.entityManager.createQuery(queryString, Tuple.class);
-    query.setParameter(&quot;lastName&quot;, lastName);
-
-    return (List&amp;#x3C;OwnerSummary&gt;) convertMany(query.getResultList(), false, OwnerSummary.class);
-  }
-
-  /**
-   * AOT generated implementation of {@link OwnerRepository#findByLastName(String,Pageable)}.
-   */
-  public Page&amp;#x3C;Owner&gt; findByLastName(String lastName, Pageable pageable) {
-    String queryString = &quot;SELECT DISTINCT owner FROM Owner owner left join owner.pets WHERE owner.lastName LIKE :lastName&quot;;
-    String countQueryString = &quot;SELECT count(DISTINCT owner) FROM Owner owner left join owner.pets WHERE owner.lastName LIKE :lastName&quot;;
-    if (pageable.getSort().isSorted()) {
-      DeclaredQuery declaredQuery = DeclaredQuery.jpqlQuery(queryString);
-      queryString = rewriteQuery(declaredQuery, pageable.getSort(), Owner.class);
-    }
-    Query query = this.entityManager.createQuery(queryString);
-    query.setParameter(&quot;lastName&quot;, &quot;%s%%&quot;.formatted(lastName));
-    if (pageable.isPaged()) {
-      query.setFirstResult(Long.valueOf(pageable.getOffset()).intValue());
-      query.setMaxResults(pageable.getPageSize());
-    }
-    LongSupplier countAll = () -&gt; {
-      Query countQuery = this.entityManager.createQuery(countQueryString);
-      countQuery.setParameter(&quot;lastName&quot;, &quot;%s%%&quot;.formatted(lastName));
-      return (Long) countQuery.getSingleResult();
-    };
-
-    return PageableExecutionUtils.getPage((List&amp;#x3C;Owner&gt;) query.getResultList(), pageable, countAll);
-  }
-
-}
+&lt;p&gt;For example, for Spring Cloud Gateway Server WebMVC:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-properties&quot;&gt;spring.cloud.gateway.server.webmvc.trusted-proxies=10\.0\.0\..*
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;As you can see the generated code can be rather simple or grow in complexity depending on the query, parameter binding or the requested data and its representation.
-On application startup, the AOT-generated classes are wired into the repository composition that is backing the proxy created for the repository interface.
-So for the first time you can actually see and step into the code that is run when calling a method on a repository interface.&lt;/p&gt;
-&lt;p&gt;Debugability aside, pre-generated code helps with parsing queries and exploring assumptions. It shortens code paths during repository bootstrap leading to faster overall application startup and less memory.&lt;/p&gt;
-&lt;img style=&quot;float: right; display: block; margin: auto;&quot; src=&quot;https://raw.githubusercontent.com/spring-io/spring-io-static/refs/heads/main/blog/cstrobl/20250522/spring-petclinic-jpa-aot-repositories-benchmark-green_theme.png&quot;&gt;
-&lt;p&gt;Depending on the underlying data store the reduction can be rather significant, like for Spring Data JPA leading to an additional startup boost and less memory on top of already more efficient AOT optimizations.&lt;/p&gt;
-&lt;p&gt;Ahead-of-Time repositories are currently a preview feature that in their first incarnation being available for JPA (via Hibernate only) and MongoDB, with more modules to follow with upcoming milestones.&lt;/p&gt;
-&lt;p&gt;Please give this new feature a try and do not hesitate to get in touch with us to let us know what you think.&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;h3 id=&quot;spring-cloud-config&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#spring-cloud-config&quot; aria-label=&quot;spring cloud config permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Spring Cloud Config&lt;/h3&gt;
+&lt;p&gt;Support YAML specific profile documents in AWS S3 buckets (&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-config/pull/2825&quot;&gt;#2825&lt;/a&gt;).&lt;/p&gt;
+&lt;h3 id=&quot;spring-cloud-kubernetes&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#spring-cloud-kubernetes&quot; aria-label=&quot;spring cloud kubernetes permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Spring Cloud Kubernetes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Kubernetes as a Composite config source &lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-kubernetes/pull/1873&quot;&gt;#1873&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Breaking Change&lt;/em&gt; Upgrade To Fabric8 7.3.1 &lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-kubernetes/issues/1923&quot;&gt;#1923&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;spring-cloud-circuitbreaker&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#spring-cloud-circuitbreaker&quot; aria-label=&quot;spring cloud circuitbreaker permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Spring Cloud Circuitbreaker&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Added support for reactive bulkheads &lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-circuitbreaker/pull/231&quot;&gt;#231&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;spring-cloud-netflix&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#spring-cloud-netflix&quot; aria-label=&quot;spring cloud netflix permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Spring Cloud Netflix&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Allow customizing Apache HTTP Client 5 &lt;code&gt;RequestConfig&lt;/code&gt; in &lt;code&gt;EurekaClientHttpRequestFactorySupplier&lt;/code&gt; &lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-netflix/issues/4391&quot;&gt;#4391&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;The following modules were updated as part of 2025.0.0:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Module&lt;/th&gt;
+&lt;th&gt;Version&lt;/th&gt;
+&lt;th&gt;Issues&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Config&lt;/td&gt;
+&lt;td&gt;4.3.0&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-config/releases/tag/v4.3.0&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Build&lt;/td&gt;
+&lt;td&gt;4.3.0&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-build/releases/tag/v4.3.0&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Openfeign&lt;/td&gt;
+&lt;td&gt;4.3.0&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-openfeign/releases/tag/v4.3.0&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Stream&lt;/td&gt;
+&lt;td&gt;4.3.0&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-stream/releases/tag/v4.3.0&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Netflix&lt;/td&gt;
+&lt;td&gt;4.3.0&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-netflix/releases/tag/v4.3.0&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Commons&lt;/td&gt;
+&lt;td&gt;4.3.0&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-commons/releases/tag/v4.3.0&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Circuitbreaker&lt;/td&gt;
+&lt;td&gt;3.3.0&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-circuitbreaker/releases/tag/v3.3.0&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Contract&lt;/td&gt;
+&lt;td&gt;4.3.0&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-contract/releases/tag/v4.3.0&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Consul&lt;/td&gt;
+&lt;td&gt;4.3.0&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-consul/releases/tag/v4.3.0&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Gateway&lt;/td&gt;
+&lt;td&gt;4.3.0&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-gateway/releases/tag/v4.3.0&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Vault&lt;/td&gt;
+&lt;td&gt;4.3.0&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-vault/releases/tag/v4.3.0&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Starter Build&lt;/td&gt;
+&lt;td&gt;2025.0.0&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-starter-build/releases/tag/v2025.0.0&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Function&lt;/td&gt;
+&lt;td&gt;4.3.0&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-function/releases/tag/v4.3.0&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Task&lt;/td&gt;
+&lt;td&gt;3.3.0&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-task/releases/tag/v3.3.0&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Kubernetes&lt;/td&gt;
+&lt;td&gt;3.3.0&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-kubernetes/releases/tag/v3.3.0&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Bus&lt;/td&gt;
+&lt;td&gt;4.3.0&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-bus/releases/tag/v4.3.0&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Zookeeper&lt;/td&gt;
+&lt;td&gt;4.3.0&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-zookeeper/releases/tag/v4.3.0&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;As always, we welcome feedback on &lt;a href=&quot;https://github.com/spring-cloud/&quot;&gt;GitHub&lt;/a&gt;, on &lt;a href=&quot;https://gitter.im/spring-cloud/spring-cloud&quot;&gt;Gitter&lt;/a&gt;, on &lt;a href=&quot;https://stackoverflow.com/questions/tagged/spring-cloud&quot;&gt;Stack Overflow&lt;/a&gt;, or on &lt;a href=&quot;https://x.com/SpringCloud&quot;&gt;X&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;To get started with Maven with a BOM (dependency management only):&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-xml&quot;&gt;&amp;#x3C;repositories&gt;
+    &amp;#x3C;repository&gt;
+        &amp;#x3C;id&gt;spring-milestones&amp;#x3C;/id&gt;
+        &amp;#x3C;name&gt;Spring Milestones&amp;#x3C;/name&gt;
+        &amp;#x3C;url&gt;https://repo.spring.io/milestone&amp;#x3C;/url&gt;
+        &amp;#x3C;snapshots&gt;
+            &amp;#x3C;enabled&gt;false&amp;#x3C;/enabled&gt;
+        &amp;#x3C;/snapshots&gt;
+    &amp;#x3C;/repository&gt;
+&amp;#x3C;/repositories&gt;
+&amp;#x3C;dependencyManagement&gt;
+    &amp;#x3C;dependencies&gt;
+        &amp;#x3C;dependency&gt;
+            &amp;#x3C;groupId&gt;org.springframework.cloud&amp;#x3C;/groupId&gt;
+            &amp;#x3C;artifactId&gt;spring-cloud-dependencies&amp;#x3C;/artifactId&gt;
+            &amp;#x3C;version&gt;2025.0.0&amp;#x3C;/version&gt;
+            &amp;#x3C;type&gt;pom&amp;#x3C;/type&gt;
+            &amp;#x3C;scope&gt;import&amp;#x3C;/scope&gt;
+        &amp;#x3C;/dependency&gt;
+    &amp;#x3C;/dependencies&gt;
+&amp;#x3C;/dependencyManagement&gt;
+&amp;#x3C;dependencies&gt;
+    &amp;#x3C;dependency&gt;
+        &amp;#x3C;groupId&gt;org.springframework.cloud&amp;#x3C;/groupId&gt;
+        &amp;#x3C;artifactId&gt;spring-cloud-starter-config&amp;#x3C;/artifactId&gt;
+    &amp;#x3C;/dependency&gt;
+    &amp;#x3C;dependency&gt;
+        &amp;#x3C;groupId&gt;org.springframework.cloud&amp;#x3C;/groupId&gt;
+        &amp;#x3C;artifactId&gt;spring-cloud-starter-netflix-eureka-client&amp;#x3C;/artifactId&gt;
+    &amp;#x3C;/dependency&gt;
+    ...
+&amp;#x3C;/dependencies&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;or with Gradle:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-groovy&quot;&gt;plugins {
+  id &apos;java&apos;
+  id &apos;org.springframework.boot&apos; version &apos;3.5.0&apos;
+  id &apos;io.spring.dependency-management&apos; version &apos;1.1.7&apos;
+}
+
+//...
+
+ext {
+  set(&apos;springCloudVersion&apos;, &quot;2025.0.0&quot;)
+}
+
+dependencies {
+  implementation &apos;org.springframework.cloud:spring-cloud-starter-config&apos;
+  implementation &apos;org.springframework.cloud:spring-cloud-starter-netflix-eureka-client&apos;
+  //...
+}
+
+dependencyManagement {
+  imports {
+    mavenBom &quot;org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}&quot;
+  }
+}
+
+//...
+
+&lt;/code&gt;&lt;/pre&gt;</content:encoded></item></channel></rss>

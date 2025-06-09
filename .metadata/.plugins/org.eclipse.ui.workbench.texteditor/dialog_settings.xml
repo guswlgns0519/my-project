@@ -2,12 +2,19 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="Cache" key="selection"/>
+		<item value="startNum" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="startNum"/>
+			<item value="panel-heading"/>
+			<item value="getList"/>
+			<item value="spring-test"/>
+			<item value="spring"/>
+			<item value="ex02"/>
+			<item value="ex"/>
 			<item value="`"/>
 			<item value="cacheModel"/>
 			<item value="cache"/>
@@ -16,7 +23,6 @@
 			<item value="&lt;div id=&quot;page-wrapper&quot;&gt;"/>
 			<item value="../"/>
 			<item value="database"/>
-			<item value="ibatis"/>
 		</list>
 		<list key="replacehistory">
 			<item value="/resources/"/>
