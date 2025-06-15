@@ -4,4 +4,11 @@
 <fullyQualifiedTypeName name="org.zerock.domain.PageDTO"/>
 <fullyQualifiedTypeName name="org.springframework.web.util.UriComponentsBuilder"/>
 <fullyQualifiedTypeName name="org.zerock.domain.ReplyPageDTO"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.annotation.AfterThrowing"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.annotation.Around"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.ProceedingJoinPoint"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="org.zerock.mapper.BoardMapper"/>
+<fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
+<fullyQualifiedTypeName name="org.apache.ibatis.annotations.Param"/>
 </qualifiedTypeNameHistroy>

@@ -2,12 +2,16 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="startNum" key="selection"/>
+		<item value="" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="transactionManager"/>
+			<item value="resultMap"/>
+			<item value="resultMap "/>
+			<item value="aspect"/>
 			<item value="startNum"/>
 			<item value="panel-heading"/>
 			<item value="getList"/>
@@ -19,10 +23,6 @@
 			<item value="cacheModel"/>
 			<item value="cache"/>
 			<item value="port"/>
-			<item value="&lt;!-- /#page-wrapper --&gt;"/>
-			<item value="&lt;div id=&quot;page-wrapper&quot;&gt;"/>
-			<item value="../"/>
-			<item value="database"/>
 		</list>
 		<list key="replacehistory">
 			<item value="/resources/"/>

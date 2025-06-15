@@ -30,11 +30,11 @@
 	<select id="getListWithPaging" resultType="org.zerock.domain.BoardVO" flushCache="true">
 		<![CDATA[
 		select
-			bno, title, content, writer, regdate, updatedate
+			bno, title, content, writer, regdate, updatedate, replyCnt
 		from
 			(
 			select /*+ INDEX_DESC(tbl_board pk_board) */
-				rownum rn, bno, title, content, writer, regdate, updatedate
+				rownum rn, bno, title, content, writer, regdate, updatedate, replyCnt
 			from
 				tbl_board
 			where
@@ -88,7 +88,9 @@
 		where bno = #{bno}
 	</update>
 	
-	
+	<update id="updateReplyCnt">
+	update tbl_board set replyCnt = replyCnt + #{amount} where bno = #{bno}
+	</update>
 	
 	
 
