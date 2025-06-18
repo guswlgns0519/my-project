@@ -274,11 +274,11 @@ $(document).ready(function(){
                 $(arr).each(function (i, attach) {
                     if (attach.fileType) {
                         var fileCallPath = encodeURIComponent(attach.uploadPath + "/s_" + attach.uuid + "_" + attach.fileName);
-                        str += "<li data-path='" + attach.uploadPath + "' data-uuid='" + attach.uuid + "' data-filename='" + attach.fileName + "' data-type='" + attach.image + "'><div>"
+                        str += "<li data-path='" + attach.uploadPath + "' data-uuid='" + attach.uuid + "' data-filename='" + attach.fileName + "' data-type='" + attach.fileType + "'><div>"
                             + "<img src='/display?fileName=" + fileCallPath + "'>"
                             + "</div></li>";
                     } else {
-                        str += "<li data-path='" + attach.uploadPath + "' data-uuid='" + attach.uuid + "' data-filename='" + attach.fileName + "' data-type='" + attach.image + "'><div>"
+                        str += "<li data-path='" + attach.uploadPath + "' data-uuid='" + attach.uuid + "' data-filename='" + attach.fileName + "' data-type='" + attach.fileType + "'><div>"
                             + "<span>" + attach.fileName + "</span>"
                             + "<img src='/resources/img/attach.png'>"
                             + "</div></li>";
@@ -293,7 +293,7 @@ $(document).ready(function(){
             console.log("view image");
 
             var liObj = $(this);
-            var path = encodeURIComponent(liObj.data("path") + "/" + liObj.data("uuid") + "_" + liObj.data("fileName"));
+            var path = encodeURIComponent(liObj.data("path") + "/" + liObj.data("uuid") + "_" + liObj.data("filename"));
 
             if(liObj.data("type")) {
     			showImage(path.replace(new RegExp(/\\/g), "/")); 
