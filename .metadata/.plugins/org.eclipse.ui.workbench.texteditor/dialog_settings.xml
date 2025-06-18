@@ -2,27 +2,27 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="Aspect" key="selection"/>
+		<item value="" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="sechedu"/>
+			<item value="remove this"/>
+			<item value="getattach"/>
+			<item value="button"/>
+			<item value="preventDefault"/>
+			<item value="File Attach"/>
+			<item value="uploadAjaxAction"/>
+			<item value="showUploadResult"/>
+			<item value="coo"/>
+			<item value="scheduler"/>
 			<item value="aspect"/>
 			<item value="1.9.0"/>
 			<item value="tx"/>
 			<item value="&quot;form&quot;"/>
 			<item value="no"/>
-			<item value="getAttachList"/>
-			<item value="board"/>
-			<item value="col-lg-12"/>
-			<item value="footer"/>
-			<item value="getattach"/>
-			<item value="showUpload"/>
-			<item value="databind"/>
-			<item value="servlet"/>
-			<item value="transactionManager"/>
-			<item value="resultMap"/>
 		</list>
 		<list key="replacehistory">
 			<item value="/resources/"/>

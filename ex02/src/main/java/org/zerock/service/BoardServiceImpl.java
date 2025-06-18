@@ -12,19 +12,19 @@ import org.zerock.mapper.BoardAttachMapper;
 import org.zerock.mapper.BoardMapper;
 
 import lombok.AllArgsConstructor;
-import lombok.Setter;
 import lombok.extern.java.Log;
 
 
 @Log
 @Service
+@AllArgsConstructor
 public class BoardServiceImpl implements BoardService {
 
 	@Autowired
     private BoardMapper mapper;
     @Autowired
     private BoardAttachMapper attachMapper;
-	
+
     @Transactional
     @Override
     public void register(BoardVO board) {
@@ -57,6 +57,7 @@ public class BoardServiceImpl implements BoardService {
         attachMapper.deleteAll(board.getBno()); 
         boolean modifyResult = mapper.update(board) == 1;  
 
+        // 첨부파일 존재하는 경우 첨부파일 추가
         if (modifyResult && board.getAttachList() != null && board.getAttachList().size() > 0) {
             board.getAttachList().forEach(attach -> {
                 attach.setBno(board.getBno());
@@ -68,15 +69,12 @@ public class BoardServiceImpl implements BoardService {
     }
 
 	@Transactional
-	@Override
-	public boolean remove(Long bno) {
-		
-		log.info("remove...." + bno);
-		
-		attachMapper.deleteAll(bno);
-		
-		return mapper.delete(bno) == 1;
-	}
+    @Override
+    public boolean remove(Long bno) {
+		log.info("remove ....... " + bno);
+        attachMapper.deleteAll(bno);  // 첨부파일 삭제
+        return mapper.delete(bno) == 1;
+    }
 
 //	@Override
 //	public List<BoardVO> getList() {
@@ -98,11 +96,13 @@ public class BoardServiceImpl implements BoardService {
 		log.info("get total count");
 		return mapper.getTotalCount(cri);
 	}
-	
+
 	@Override
-    public List<BoardAttachVO> getAttachList(Long bno) {
-		log.info("get Attach list by bno: " + bno);
-        return attachMapper.findByBno(bno);
-    }
+	public List<BoardAttachVO> getAttachList(Long bno) {
+		log.info("get Attach list by bno : " + bno);
+		return attachMapper.findByBno(bno);
+	}
+	
+	
 
 }

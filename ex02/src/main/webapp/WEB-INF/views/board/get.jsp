@@ -261,7 +261,6 @@ $(document).ready(function(){
 	})	
 });
 </script>
-
 <script type="text/javascript">
     // 첨부파일 관련
     $(document).ready(function() {
@@ -290,26 +289,19 @@ $(document).ready(function(){
             });
         })();
 
-        /**
-         * 첨부파일 클릭 이벤트
-         */
         $(".uploadResult").on("click", "li", function (e) {
             console.log("view image");
 
             var liObj = $(this);
-            var path = encodeURIComponent(liObj.data("path") + "/" + liObj.data("uuid") + "_" + liObj.data("filename"));
+            var path = encodeURIComponent(liObj.data("path") + "/" + liObj.data("uuid") + "_" + liObj.data("fileName"));
 
-            if (liObj.data("type")) {  // 이미지인 경우 -> 원본 이미지 크게 보기
-                showImage(path.replace(new RegExp(/\\/g), "/"));
-            } else {  // 파일 다운로드
-                self.location = "/download?fileName=" + path;
-            }
-        });
+            if(liObj.data("type")) {
+    			showImage(path.replace(new RegExp(/\\/g), "/")); 
+    		} else {
+    			self.location = "/download?fileName="+path;
+    		}
+    	});
 
-        /**
-         * 원본 이미지 보기
-         * @param fileCallPath
-         */
         function showImage(fileCallPath) {
             alert(fileCallPath);
 
@@ -319,9 +311,6 @@ $(document).ready(function(){
                 .animate({width: "100%", height: "100%"}, 1000);
         };
 
-        /**
-         * 원본 이미지 닫기 이벤트
-         */
         $(".bigPictureWrapper").on("click", function (e) {
             $(".bigPicture").animate({width: "0%", height: "0%"}, 1000);
             setTimeout(function (e) {
@@ -330,7 +319,7 @@ $(document).ready(function(){
         });
     });
 </script>
-
+</script>
 <div class="row">
 	<div class="col-lg-12">
 		<h1 class="page-header">Board Register</h1>
@@ -370,9 +359,12 @@ $(document).ready(function(){
 					<input type='hidden' name='type' value='<c:out value="${cri.type}"/>'>
 				</form>
 			</div>
+			
 		</div>
+		
 	</div>
-	<div class="bigPictureWrapper">
+	</div>
+		<div class="bigPictureWrapper">
 	    <div class="bigPicture"></div>
 	</div>
 	
@@ -429,24 +421,21 @@ $(document).ready(function(){
 	    width: 600px;
 	}
 	</style>
-	<div class="row" style="margin: 0;">
-		<div class="col-lg-12">
-			<div class="panel panel-default">
-	    		<div class="panel-heading">Files</div>
-	    		<!-- /.panel-heading -->
-	    		<div class="panel-body">
-	    			<div class='uploadResult'>
-	    				<ul>
-	    				</ul>
-	    			</div>
-	    		</div>
-	    		<!-- end panel body -->
-	    	</div>
-	    	<!-- end panel body -->
-	    </div>
-	    <!-- end panel -->
-	</div>
-	<!-- end row -->
+	<div class="row">
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">Files</div>
+            <!-- /.panel-heading -->
+            <div class="panel-body">
+                <div class="uploadResult">
+                    <ul></ul>
+                </div>
+            </div>
+            <!-- /.panel-body -->
+        </div>
+        <!-- /.panel -->
+    </div>
+    <!-- /.col-lg-12 -->
 	<div class="col-lg-12">
 		<div class="panel panel-default">
 			<div class="panel-heading">

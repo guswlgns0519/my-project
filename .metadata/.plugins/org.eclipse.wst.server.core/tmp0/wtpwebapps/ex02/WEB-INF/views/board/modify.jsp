@@ -7,80 +7,82 @@
 <%@ include file="../includes/header.jsp" %>
 
 <script type="text/javascript">
-$(document).ready(function(){
-	var formObj = $("form");
+    $(document).ready(function() {
 
-    $("button").on("click", function (e) {
-        e.preventDefault();
+        var formObj = $("form");
 
-        var operation = $(this).data("oper");
-        if (operation === "remove") {
-            formObj.attr("action", "/board/remove");
-        } else if (operation === "list") {
-            formObj.attr("action", "/board/list").attr("method", "get");
+        $("button").on("click", function (e) {
+            e.preventDefault();
 
-            var pageNumTag = $("input[name='pageNum']").clone();
-            var amountTag = $("input[name='amount']").clone();
-            var typeTag = $("input[name='type']").clone();
-            var keywordTag = $("input[name='keyword']").clone();
+            var operation = $(this).data("oper");
+            if (operation === "remove") {
+                formObj.attr("action", "/board/remove");
+            } else if (operation === "list") {
+                formObj.attr("action", "/board/list").attr("method", "get");
 
-            formObj.empty();
-            formObj.append(pageNumTag);
-            formObj.append(amountTag);
-            formObj.append(typeTag);
-            formObj.append(keywordTag);
-        } else if (operation === 'modify') {
-            console.log("submit clicked");
+                var pageNumTag = $("input[name='pageNum']").clone();
+                var amountTag = $("input[name='amount']").clone();
+                var typeTag = $("input[name='type']").clone();
+                var keywordTag = $("input[name='keyword']").clone();
 
-            var str = "";
-            $(".uploadResult ul li").each(function (i, obj) {
-                var jobj = $(obj);
-                console.dir(jobj);
+                formObj.empty();
+                formObj.append(pageNumTag);
+                formObj.append(amountTag);
+                formObj.append(typeTag);
+                formObj.append(keywordTag);
+            } else if (operation === 'modify') {
+                console.log("submit clicked");
 
-                str += "<input type='hidden' name='attachList[" + i + "].fileName' value='" + jobj.data("filename") + "'>";
-                str += "<input type='hidden' name='attachList[" + i + "].uuid' value='" + jobj.data("uuid") + "'>";
-                str += "<input type='hidden' name='attachList[" + i + "].uploadPath' value='" + jobj.data("path") + "'>";
-                str += "<input type='hidden' name='attachList[" + i + "].fileType' value='" + jobj.data("type") + "'>";
-            });
-            formObj.append(str).submit();
-        }
+                var str = "";
+                $(".uploadResult ul li").each(function (i, obj) {
+                    var jobj = $(obj);
+                    console.dir(jobj);
 
-        formObj.submit();
-	})	;
-});
+                    str += "<input type='hidden' name='attachList[" + i + "].fileName' value='" + jobj.data("filename") + "'>";
+                    str += "<input type='hidden' name='attachList[" + i + "].uuid' value='" + jobj.data("uuid") + "'>";
+                    str += "<input type='hidden' name='attachList[" + i + "].uploadPath' value='" + jobj.data("path") + "'>";
+                    str += "<input type='hidden' name='attachList[" + i + "].fileType' value='" + jobj.data("type") + "'>";
+                });
+                formObj.append(str).submit();
+            }
+
+            formObj.submit();
+        });
+    })
 </script>
 <script type="text/javascript">
-	$(document).ready(function() {
-	    (function() {
-	        var bno = '<c:out value="${board.bno}" />';
-	
-	        $.getJSON("/board/getAttachList", { bno: bno }, function (arr) {
-	            console.log(arr);
-	
-	            var str = "";
-	            $(arr).each(function (i, attach) {
-	                if (attach.fileType) {
-	                    var fileCallPath = encodeURIComponent(attach.uploadPath + "/s_" + attach.uuid + "_" + attach.fileName);
-	                    str += "<li data-path='" + attach.uploadPath + "' data-uuid='" + attach.uuid + "' data-filename='" + attach.fileName + "' data-type='"+ attach.fileType + "'><div>"
+    $(document).ready(function() {
+        (function() {
+            var bno = '<c:out value="${board.bno}" />';
+
+            $.getJSON("/board/getAttachList", { bno: bno }, function (arr) {
+                console.log(arr);
+
+                var str = "";
+                $(arr).each(function (i, attach) {
+                    if (attach.fileType) {
+                        var fileCallPath = encodeURIComponent(attach.uploadPath + "/s_" + attach.uuid + "_" + attach.fileName);
+                        str += "<li data-path='" + attach.uploadPath + "' data-uuid='" + attach.uuid + "' data-filename='" + attach.fileName + "' data-type='" + attach.fileType + "'><div>"
                         + "<span>" + attach.fileName + "</span>"
                         + "<button type='button' data-file=\'" + fileCallPath + "\' data-type='image' class='btn btn-warning btn-circle'>"
                         + "<i class='fa fa-times'></i></button><br>"
                         + "<img src='/display?fileName=" + fileCallPath + "'>"
-	                    + "</div></li>";
-	                } else {
-	                    str += "<li data-path='" + attach.uploadPath + "' data-uuid='" + attach.uuid + "' data-filename='" + attach.fileName + "' data-type='" + attach.fileType + "'><div>"
+                        + "</div></li>";
+                    } else {
+                        str += "<li data-path='" + attach.uploadPath + "' data-uuid='" + attach.uuid + "' data-filename='" + attach.fileName + "' data-type='" + attach.fileType + "'><div>"
                         + "<span>" + attach.fileName + "</span>"
                         + "<button type='button' data-file=\'" + fileCallPath + "\' data-type='image' class='btn btn-warning btn-circle'>"
                         + "<i class='fa fa-times'></i></button><br>"
-	                    + "<img src='/resources/img/attach.png'>"
-	                    + "</div></li>";
-	                }
-	            });
-	            $(".uploadResult ul").html(str);
-	
-	        });
-	    })();
-	    $(".uploadResult").on("click", "button", function (e) {
+                        + "<img src='/resources/img/attach.png'>"
+                        + "</div></li>";
+                    }
+                });
+                $(".uploadResult ul").html(str);
+
+            });
+        })();
+
+        $(".uploadResult").on("click", "button", function (e) {
             console.log("delete file");
 
             if (confirm("Remove this file?")) {
@@ -88,7 +90,8 @@ $(document).ready(function(){
                 targetLi.remove();
             }
         });
-	    var regex = new RegExp("(.*?)\(exe|sh|zip|alz)$");
+
+        var regex = new RegExp("(.*?)\(exe|sh|zip|alz)$");
         var maxSize = 5242880;  
         
         function checkExtention (fileName, fileSize) {
@@ -104,6 +107,7 @@ $(document).ready(function(){
 
             return true;
         }
+
         function showUploadResult(uploadResultArr) {
             if (!uploadResultArr || uploadResultArr.length == 0) { return; }
 
@@ -164,7 +168,7 @@ $(document).ready(function(){
 </script>
 <div class="row">
 	<div class="col-lg-12">
-		<h1 class="page-header">Board Modify Page</h1>
+		<h1 class="page-header">Board Register</h1>
 	</div>
 </div>
 
@@ -216,8 +220,27 @@ $(document).ready(function(){
 		</div>
 		
 	</div>
-	</div>
-		<div class="bigPictureWrapper">
+</div>
+<div class="row">
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">Files</div>
+            <!-- /.panel-heading -->
+            <div class="panel-body">
+                <div class="form-group uploadDiv">
+                    <input type="file" name="uploadFile" multiple>
+                </div>
+                <div class="uploadResult">
+                    <ul></ul>
+                </div>
+            </div>
+            <!-- /.panel-body -->
+        </div>
+        <!-- /.panel -->
+    </div>
+    <!-- /.col-lg-12 -->
+</div>
+	<div class="bigPictureWrapper">
 	    <div class="bigPicture"></div>
 	</div>
 	
@@ -274,24 +297,4 @@ $(document).ready(function(){
 	    width: 600px;
 	}
 	</style>
-	<div class="row">
-	    <div class="col-lg-12">
-	        <div class="panel panel-default">
-	            <div class="panel-heading">Files</div>
-	            <!-- /.panel-heading -->
-	            <div class="panel-body">
-	                <div class="form-group uploadDiv">
-	                    <input type="file" name="uploadFile" multiple>
-	                </div>
-	                <div class="uploadResult">
-	                    <ul></ul>
-	                </div>
-	            </div>
-	            <!-- /.panel-body -->
-	        </div>
-	        <!-- /.panel -->
-	    </div>
-	    <!-- /.col-lg-12 -->
-	</div>
-
 <%@ include file="../includes/footer.jsp" %>

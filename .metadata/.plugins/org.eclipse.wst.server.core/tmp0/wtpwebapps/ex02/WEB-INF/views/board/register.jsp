@@ -75,39 +75,44 @@
     </div>
     <!-- /.col-lg-12 -->
 </div>
+<!-- /.row -->
 
 <script>
-	<!-- Submit Button을 클릭하였을 때, 첨부파일 관련된 처리를 할 수 있도록 기본 동작을 막는 작업 -->
-	$(document).ready(function(e){
-		
-		var regex = new RegExp("(.*?)\.(exe|sh|zip|alz)$");
-		var maxSize = 5242880; //5MB
-		
-		function checkExtension(fileName, fileSize){
-			
-			if(fileSize >= maxSize){
-				alert("파일 사이즈 초과");
-				return false;
-			}
-			
-			if(regex.test(fileName)){
-				alert("해당 종류의 파일은 업로드할 수 없습니다.");
-				return false;
-			}
-			
-			return true;
-		}
-		
-		function showUploadResult(uploadResultArr){
-			
-			if(!uploadResultArr || (uploadResultArr.length == 0)){
-				return;
-			}
-			
-			var uploadUL = $(".uploadResult ul");
-			var str ="";
-			
-			$(uploadResultArr).each(function (i, obj) {
+    $(document).ready(function (e) {
+        var regex = new RegExp("(.*?)\(exe|sh|zip|alz)$");
+        var maxSize = 5242880;  // 5MB
+
+        /**
+         * 파일 사이즈, 확장자 체크 함수
+         * @param fileName
+         * @param fileSize
+         * @returns {boolean}
+         */
+        function checkExtention (fileName, fileSize) {
+            if (fileSize >= maxSize) {
+                alert("파일 사이즈 초과");
+                return false;
+            }
+
+            if (regex.test(fileName)) {
+                alert("해당 종류의 파일은 업로드할 수 없습니다.");
+                return false;
+            }
+
+            return true;
+        }
+
+        /**
+         * 파일 업로드 결과 이미지 표시 함수
+         * @param uploadResultArr
+         */
+        function showUploadResult(uploadResultArr) {
+            if (!uploadResultArr || uploadResultArr.length == 0) { return; }
+
+            var uploadUL = $(".uploadResult ul");
+            var str = "";
+
+            $(uploadResultArr).each(function (i, obj) {
                 if (obj.image) {
                     var fileCallPath = encodeURIComponent(obj.uploadPath + "/s_" + obj.uuid + "_" + obj.fileName);
                     str += "<li data-path='" + obj.uploadPath + "' data-uuid='" + obj.uuid + "' data-filename='" + obj.fileName + "' data-type='" + obj.image + "'><div>"
@@ -129,62 +134,59 @@
                 }
             });
 
-			console.log(str);
             uploadUL.append(str);
-		}
-		
-		$("input[type='file']").change(function(e){
-			var formData = new FormData();
-			
-			var inputFile = $("input[name='uploadFile']");
-			
-			var files = inputFile[0].files;
-			
-			for(var i=0; i<files.length; i++){
-				
-				//파일 사이즈 초과하거나, 업로드할 수 없는 확장자라면 return
-				if(!checkExtension(files[i].name, files[i].size) ){
-					return false;
-				}
-				
-				formData.append("uploadFile", files[i]);
-			}
-			
-			$.ajax({
-				url: '/uploadAjaxAction',
-				processData: false,
-				contentType: false, 
-				data: formData,
-				type: 'POST',
-				dataType: 'json',
-					success: function(result){
-						console.log(result);
-						showUploadResult(result); //업로드 결과 처리 함수
-					}
-			}); //$.ajax
-		});
-		
-		$(".uploadResult").on("click", "button", function(e) {
-			
-			console.log("delete file");
-			
-			var targetFile = $(this).data("file");
-			var type = $(this).data("type");
-			
-			var targetLi = $(this).closest("li");
-			
-			$.ajax({
-				url: '/deleteFile',
-				data: {fileName: targetFile, type:type},
-				dataType: 'text',
-				type: 'POST',
-					success: function(result){
-						alert(result);
-						targetLi.remove();
-					}
-			}); //$.ajax
-		});
-		var formObj = $("form[role='form']");
+        }
+
+        $("input[type='file']").change(function (e) {
+            var formData = new FormData();
+            var inputFile = $("input[name='uploadFile']");
+            var files = inputFile[0].files;
+
+            for (var i = 0; i < files.length; i++) {
+                if (!checkExtention(files[i].name, files[i].size)) {
+                    return false;
+                }
+                formData.append("uploadFile", files[i]);
+            }
+
+            $.ajax({
+                url: '/uploadAjaxAction',
+                processData: false,
+                contentType: false,
+                data: formData,
+                type: 'POST',
+                dataType: 'json',
+                success: function (result) {
+                    console.log(result);
+                    showUploadResult(result); // 업로드 결과 처리 함수
+                }
+            })
+        });
+
+        /**
+         * 첨부파일 삭제 이벤트
+         */
+        $(".uploadResult").on("click", "button", function (e) {
+           console.log("delete file");
+
+           var targetFile = $(this).data("file");
+           var type = $(this).data("type");
+
+           var targetLi = $(this).closest("li");
+
+           $.ajax({
+               url: '/deleteFile',
+               data: { fileName: targetFile, type: type },
+               dataType: 'text',
+               type: 'POST',
+               success: function (result) {
+                   alert(result);
+                   targetLi.remove();
+               }
+           });
+        });
+
+        var formObj = $("form[role='form']");
         $("button[type='submit']").on("click", function (e) {
             e.preventDefault();
             console.log("submit clicked");
@@ -202,8 +204,5 @@
             formObj.append(str).submit();
 
         });
-	});
-	
+    });
 </script>
-<!-- /.row -->
-<%@ include file="../includes/footer.jsp"%>
